@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0940"
+   LastUpgradeVersion = "1130"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C643400E2110F541004E9383"
-               BuildableName = "PluggableAppDelegate.framework"
-               BlueprintName = "PluggableAppDelegate"
+               BlueprintIdentifier = "C64340492110FA39004E9383"
+               BuildableName = "PluggableAppDelegateExample.app"
+               BlueprintName = "PluggableAppDelegateExample"
                ReferencedContainer = "container:PluggableAppDelegate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,26 +27,7 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C643400E2110F541004E9383"
-            BuildableName = "PluggableAppDelegate.framework"
-            BlueprintName = "PluggableAppDelegate"
-            ReferencedContainer = "container:PluggableAppDelegate.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C64340172110F541004E9383"
-               BuildableName = "PluggableAppDelegateTests.xctest"
-               BlueprintName = "PluggableAppDelegateTests"
-               ReferencedContainer = "container:PluggableAppDelegate.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -59,15 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C643400E2110F541004E9383"
-            BuildableName = "PluggableAppDelegate.framework"
-            BlueprintName = "PluggableAppDelegate"
+            BlueprintIdentifier = "C64340492110FA39004E9383"
+            BuildableName = "PluggableAppDelegateExample.app"
+            BlueprintName = "PluggableAppDelegateExample"
             ReferencedContainer = "container:PluggableAppDelegate.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -75,15 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C643400E2110F541004E9383"
-            BuildableName = "PluggableAppDelegate.framework"
-            BlueprintName = "PluggableAppDelegate"
+            BlueprintIdentifier = "C64340492110FA39004E9383"
+            BuildableName = "PluggableAppDelegateExample.app"
+            BlueprintName = "PluggableAppDelegateExample"
             ReferencedContainer = "container:PluggableAppDelegate.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
