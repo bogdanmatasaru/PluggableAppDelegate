@@ -14,5 +14,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .gray
+        
+        let textField = UITextField(frame: CGRect(x: 100, y: 100, width: 200, height: 40))
+        textField.backgroundColor = .yellow
+        self.view.addSubview(textField)
     }
 }

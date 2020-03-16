@@ -21,7 +21,6 @@
 		C64340352110F7A7004E9383 /* AppServicesManager+InterfaceGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64340342110F7A7004E9383 /* AppServicesManager+InterfaceGeometry.swift */; };
 		C64340372110F7BF004E9383 /* AppServicesManager+HealthKitInteracting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64340362110F7BF004E9383 /* AppServicesManager+HealthKitInteracting.swift */; };
 		C64340392110F7D3004E9383 /* AppServicesManager+HandlingActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64340382110F7D3004E9383 /* AppServicesManager+HandlingActions.swift */; };
-		C643403B2110F7E4004E9383 /* AppServicesManager+ExtensionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C643403A2110F7E4004E9383 /* AppServicesManager+ExtensionTypes.swift */; };
 		C643403D2110F805004E9383 /* AppServicesManager+DownloadingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C643403C2110F805004E9383 /* AppServicesManager+DownloadingData.swift */; };
 		C643403F2110F818004E9383 /* AppServicesManager+Continuing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C643403E2110F818004E9383 /* AppServicesManager+Continuing.swift */; };
 		C64340412110F82D004E9383 /* AppServicesManager+CloudKitHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64340402110F82D004E9383 /* AppServicesManager+CloudKitHandling.swift */; };
@@ -83,7 +82,6 @@
 		C64340342110F7A7004E9383 /* AppServicesManager+InterfaceGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppServicesManager+InterfaceGeometry.swift"; sourceTree = "<group>"; };
 		C64340362110F7BF004E9383 /* AppServicesManager+HealthKitInteracting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppServicesManager+HealthKitInteracting.swift"; sourceTree = "<group>"; };
 		C64340382110F7D3004E9383 /* AppServicesManager+HandlingActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppServicesManager+HandlingActions.swift"; sourceTree = "<group>"; };
-		C643403A2110F7E4004E9383 /* AppServicesManager+ExtensionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppServicesManager+ExtensionTypes.swift"; sourceTree = "<group>"; };
 		C643403C2110F805004E9383 /* AppServicesManager+DownloadingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppServicesManager+DownloadingData.swift"; sourceTree = "<group>"; };
 		C643403E2110F818004E9383 /* AppServicesManager+Continuing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppServicesManager+Continuing.swift"; sourceTree = "<group>"; };
 		C64340402110F82D004E9383 /* AppServicesManager+CloudKitHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppServicesManager+CloudKitHandling.swift"; sourceTree = "<group>"; };
@@ -177,7 +175,6 @@
 				C64340402110F82D004E9383 /* AppServicesManager+CloudKitHandling.swift */,
 				C643403E2110F818004E9383 /* AppServicesManager+Continuing.swift */,
 				C643403C2110F805004E9383 /* AppServicesManager+DownloadingData.swift */,
-				C643403A2110F7E4004E9383 /* AppServicesManager+ExtensionTypes.swift */,
 				C64340382110F7D3004E9383 /* AppServicesManager+HandlingActions.swift */,
 				C64340362110F7BF004E9383 /* AppServicesManager+HealthKitInteracting.swift */,
 				C64340342110F7A7004E9383 /* AppServicesManager+InterfaceGeometry.swift */,
@@ -376,7 +373,6 @@
 				C64340352110F7A7004E9383 /* AppServicesManager+InterfaceGeometry.swift in Sources */,
 				C64340412110F82D004E9383 /* AppServicesManager+CloudKitHandling.swift in Sources */,
 				C643403D2110F805004E9383 /* AppServicesManager+DownloadingData.swift in Sources */,
-				C643403B2110F7E4004E9383 /* AppServicesManager+ExtensionTypes.swift in Sources */,
 				C64340312110F773004E9383 /* AppServicesManager+URLOpening.swift in Sources */,
 				C64340452110F855004E9383 /* AppServicesManager+AppStateAndSystemEvents.swift in Sources */,
 				C643402D2110F727004E9383 /* AppServicesManager+AppInitializing.swift in Sources */,
@@ -563,7 +559,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = D54US7N29T;
+				DEVELOPMENT_TEAM = YQ42N9F655;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -591,7 +587,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = D54US7N29T;
+				DEVELOPMENT_TEAM = YQ42N9F655;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -655,7 +651,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D54US7N29T;
+				DEVELOPMENT_TEAM = YQ42N9F655;
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -675,7 +671,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D54US7N29T;
+				DEVELOPMENT_TEAM = YQ42N9F655;
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
